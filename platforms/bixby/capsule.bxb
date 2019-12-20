@@ -1,0 +1,31 @@
+capsule {
+  id (playground.jovo_test)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  runtime-flags {
+    support-halt-effect-in-computed-inputs
+    use-input-views-for-selection-list-detail
+    modern-prompt-rejection
+    concepts-inherit-super-type-features
+    no-filtering-with-validation
+    modern-default-view-behavior
+  }
+  capsule-imports {
+    	import (bixby.audioPlayer) {
+      		version (1.0.1)
+      		as (audioPlayer)
+    	}
+  	}
+	permissions {
+  	bixby-user-id-access
+	}
+	store-countries {
+    all
+  }
+  store-sections {
+    section (Utilities)
+  }
+}

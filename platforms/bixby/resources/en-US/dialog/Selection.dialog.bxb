@@ -1,0 +1,4 @@
+dialog (Result) {
+  match: JovoResponse (response)
+  template("#{value (response._JOVO_SPEECH_)}")
+}
