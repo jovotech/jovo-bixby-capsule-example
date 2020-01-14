@@ -29,17 +29,37 @@ app.use(
 
 app.setHandler({
     LAUNCH() {
-        return this.toIntent('HelloWorldIntent');
-    },
-
-    HelloWorldIntent() {
+        console.log('LAUNCH()');
         this.ask('Hello World! What\'s your name?', 'Please tell me your name.');
     },
 
     MyNameIsIntent() {
+        console.log('MyNameIsIntent()');
+        this.$layout.single = 'Hello World.';
         this.$session.$data.name = this.$inputs.name.value;
         this.tell('Hey ' + this.$inputs.name.value + ', nice to meet you!');
     },
+
+    PlayAudioIntent() {
+        console.log('PlayAudioIntent()');
+        this.$audioPlayer
+            .play({
+                url: 'http://www.testsounds.com/track39.mp3',
+                format: 'audio/mp3'
+            })
+            .setMetaData({
+                id: 'jovo-audio',
+                title: 'Drum Solo',
+                artist: 'Random',
+                albumArtUrl: 'test.png'
+            })
+            .setDisplayName('Jovo Audio - Drum Solo');
+    },
+
+    AudioPlayingIntent() {
+        console.log('AudioPlayingIntent()');
+        this.tell('Playing audio.');
+    }
 });
 
 module.exports.app = app;
