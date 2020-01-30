@@ -9,7 +9,6 @@ const { Alexa } = require('jovo-platform-alexa');
 const { GoogleAssistant } = require('jovo-platform-googleassistant');
 const { JovoDebugger } = require('jovo-plugin-debugger');
 const { FileDb } = require('jovo-db-filedb');
-// const { Bixby } = require('../../jovo-framework/jovo-platforms/jovo-platform-bixby');
 const { Bixby } = require('jovo-platform-bixby');
 
 const app = new App();
