@@ -2,3 +2,4 @@ node_modules
 db
 platforms/alexaSkill
 platforms/googleAction
+bundle
