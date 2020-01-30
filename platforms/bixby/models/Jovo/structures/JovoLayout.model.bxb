@@ -1,0 +1,9 @@
+structure (JovoLayout) {
+  description (__DESCRIPTION__)
+  
+  property (single) {
+    type(viv.core.Text)
+    min (Optional)
+    max (One)
+  }
+}
