@@ -8,7 +8,8 @@
 		"jovo-framework": "^2.2.25",
 		"jovo-platform-alexa": "^2.0.2",
 		"jovo-platform-googleassistant": "^2.0.2",
-		"jovo-plugin-debugger": "^2.0.2"
+		"jovo-plugin-debugger": "^2.0.2",
+		"lodash.template": "^4.5.0"
 	},
 	"devDependencies": {
 		"gulp": "^4.0.0",
