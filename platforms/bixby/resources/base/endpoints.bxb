@@ -1,7 +1,3 @@
-
-
-
-
 endpoints {
   action-endpoints {
     action-endpoint (LaunchAction) {

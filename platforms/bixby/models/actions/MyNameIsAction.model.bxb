@@ -1,6 +1,3 @@
-
-
-
 action (MyNameIsAction) {
   description (Collects a name from the user and returns a welcome message.)
   type (Search)
