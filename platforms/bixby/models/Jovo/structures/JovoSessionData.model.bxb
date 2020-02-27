@@ -13,7 +13,7 @@ structure (JovoSessionData) {
     min (Optional)
   }
 
-  // Paste your own session properties here
+  // Paste your own session properties here.
   property(name) {
     type (NameInput)
     max (One) 

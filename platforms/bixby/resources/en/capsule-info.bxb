@@ -3,7 +3,7 @@ capsule-info {
   developer-name (Jovo)
   icon-asset (jovo-logo.png)
   description ("An example capsule, that demonstrates how to integrate a Bixby capsule into a Jovo Application.")
-  website-url (https://jovo.tech.com)
+  website-url (https://jovo.tech)
   terms-url (https://jovo.tech/terms)
   search-keywords {
     keyword(jovo)
