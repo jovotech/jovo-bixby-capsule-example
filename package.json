@@ -4,12 +4,12 @@
 	"description": "A sample voice app that works with the Jovo Framework and Samsung Bixby",
 	"main": "src/index.js",
 	"dependencies": {
-		"jovo-db-filedb": "^3.0.2",
-		"jovo-framework": "^3.0.2",
-		"jovo-platform-alexa": "^3.0.2",
-		"jovo-platform-bixby": "^3.0.2",
-		"jovo-platform-googleassistant": "^3.0.2",
-		"jovo-plugin-debugger": "^3.0.2"
+		"jovo-db-filedb": "^3.0.5",
+		"jovo-framework": "^3.0.5",
+		"jovo-platform-alexa": "^3.0.5",
+		"jovo-platform-bixby": "^3.0.5",
+		"jovo-platform-googleassistant": "^3.0.5",
+		"jovo-plugin-debugger": "^3.0.5"
 	},
 	"devDependencies": {
 		"gulp": "^4.0.0",
